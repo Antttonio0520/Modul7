@@ -29,6 +29,8 @@ body {
 }
 img {
    display: block;
+   max-width: 100%;
+   height: auto;
 }
 textarea {
    resize: none;
@@ -219,7 +221,7 @@ header {
 }
 .overlay {
    height: 432px;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-bg.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg/bg-428@1x.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -631,6 +633,7 @@ footer .logo {
 .input-sub{
    width: 150%;
    padding: 8px 16px;
+   margin-bottom: 16px;
    border-radius: 4px;
    background-color: transparent;
    outline: 0;
